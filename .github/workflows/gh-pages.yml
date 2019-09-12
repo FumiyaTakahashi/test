@@ -3,13 +3,13 @@ name: github pages
 on:
   push:
     branches:
-      - github-actions-test
+      - master
 
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@github-actions-test
+      - uses: actions/checkout@master
 
       - name: build
         uses: actions/setup-node@v1
