@@ -1,0 +1,25 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": false,
+  "arrowParens": "always",
+  "parser": "babylon",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": [".prettierrc", ".eslintrc"],
+      "options": {"parser": "json"}
+    },
+    {
+      "files": "*.vue",
+      "options": {"parser": "vue"}
+    },
+    {
+      "files": "*.less",
+      "options": {"parser": "less"}
+    }
+  ]
+}
