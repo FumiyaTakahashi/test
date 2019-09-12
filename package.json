@@ -1,0 +1,49 @@
+{
+  "name": "vue-hands-on",
+  "version": "1.0.0",
+  "description": "github pages のいけにえ",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=production",
+    "dev": "webpack --config webpack.config.js --watch --mode=development",
+    "test": "mocha-webpack --webpack-config webpack.config.test.js --require test/setup.js test/**/*.spec.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "jsdom": "^15.1.1",
+    "jsdom-global": "^3.0.2",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mocha": "^6.2.0",
+    "mocha-webpack": "^1.1.0",
+    "prettier": "^1.18.2",
+    "style-loader": "^1.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "moddle-xml": "^8.0.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.1",
+    "vuex": "^3.1.1"
+  }
+}

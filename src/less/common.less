@@ -1,0 +1,114 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+// 一番外のdiv
+.body {
+  height: 90%;
+  min-height: 768px;
+  min-width: 1024px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+// 各コンポーネント
+.components {
+  height: calc(100% - 10px);
+  margin: 10px;
+  border: 2px solid #111111;
+  box-sizing: border-box;
+}
+
+// ヘッダー
+.header {
+  height: 10%;
+  min-height: 67px;
+}
+
+.header_title {
+  font-size: 48px;
+}
+
+
+// メインコンテンツ
+.main_contents {
+  height: 90%;
+  display: flex;
+}
+
+// フォーム
+.forms {
+  width: 50%;
+}
+.forms_input_form {
+  margin: 30px;
+  display: flex;
+}
+.forms_input_form_inputArea {
+  margin: 4% 0;
+  width: 100%;
+}
+.forms_input_form_textArea {
+  width: 100%;
+}
+.forms_add {
+  width: auto;
+  margin: 30px;
+}
+.forms_add_button {
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 1.6rem;
+  height: 40px;
+  min-width: 150px;
+  padding: 2px 10px 0 10px;
+  border: 1px solid #aaa;
+  color: #333;
+  float: right;
+}
+
+// リスト
+.list {
+  width: 50%;
+}
+.list_header {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.list_body {
+  width: 100%;
+  height: calc(100% - 56px);
+  overflow: auto;
+}
+.list_body_table {
+  width: calc(100% - 20px);
+  height: auto;
+  margin: 10px;
+  font-size: 12px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.list_body_table_name {
+  max-width: 10px;
+}
+.list_body_table_kana {
+  max-width: 10px;
+}
+.list_body_table_favoriteFood {
+  max-width: 10px;
+}
+.list_body_table_word {
+  max-width: 10px;
+}
+
+tr {
+  border-bottom: 2px solid #111111;
+}
