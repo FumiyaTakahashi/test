@@ -43,6 +43,7 @@
 </template>
 
 <script>
+// テスト用コメント
 export default {
   data: () =>{
     return {};
