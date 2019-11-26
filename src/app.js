@@ -9,7 +9,6 @@ import './less/common.less';
 Vue.use(VueRouter);
 Vue.use(EventHub);
 
-// テスト用コメント
 const routes = [{path: '/', component: VueHandsOn}];
 const router = new VueRouter({
   routes,
