@@ -6,6 +6,7 @@ import EventHub from './lib/EventHub';
 
 import './less/common.less';
 
+// test2
 Vue.use(VueRouter);
 Vue.use(EventHub);
 
